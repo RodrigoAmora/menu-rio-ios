@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2D385BA2A6044CA00890EC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D385B92A6044CA00890EC4 /* AppDelegate.swift */; };
+		D2D385BC2A6044CA00890EC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D385BB2A6044CA00890EC4 /* SceneDelegate.swift */; };
+		D2D385BE2A6044CA00890EC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D385BD2A6044CA00890EC4 /* ViewController.swift */; };
+		D2D385C12A6044CA00890EC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D385BF2A6044CA00890EC4 /* Main.storyboard */; };
+		D2D385C42A6044CA00890EC4 /* MenuRio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2D385C22A6044CA00890EC4 /* MenuRio.xcdatamodeld */; };
+		D2D385C62A6044CA00890EC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D385C52A6044CA00890EC4 /* Assets.xcassets */; };
+		D2D385C92A6044CA00890EC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D385C72A6044CA00890EC4 /* LaunchScreen.storyboard */; };
+		D2D385D42A6044CB00890EC4 /* MenuRioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D385D32A6044CB00890EC4 /* MenuRioTests.swift */; };
+		D2D385DE2A6044CB00890EC4 /* MenuRioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D385DD2A6044CB00890EC4 /* MenuRioUITests.swift */; };
+		D2D385E02A6044CB00890EC4 /* MenuRioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D385DF2A6044CB00890EC4 /* MenuRioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2D385D02A6044CB00890EC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2D385AE2A6044CA00890EC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D385B52A6044CA00890EC4;
+			remoteInfo = MenuRio;
+		};
+		D2D385DA2A6044CB00890EC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2D385AE2A6044CA00890EC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D385B52A6044CA00890EC4;
+			remoteInfo = MenuRio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2D385B62A6044CA00890EC4 /* MenuRio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuRio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D385B92A6044CA00890EC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2D385BB2A6044CA00890EC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D2D385BD2A6044CA00890EC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2D385C02A6044CA00890EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2D385C32A6044CA00890EC4 /* MenuRio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MenuRio.xcdatamodel; sourceTree = "<group>"; };
+		D2D385C52A6044CA00890EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2D385C82A6044CA00890EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2D385CA2A6044CA00890EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D385CF2A6044CB00890EC4 /* MenuRioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuRioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D385D32A6044CB00890EC4 /* MenuRioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRioTests.swift; sourceTree = "<group>"; };
+		D2D385D92A6044CB00890EC4 /* MenuRioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuRioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D385DD2A6044CB00890EC4 /* MenuRioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRioUITests.swift; sourceTree = "<group>"; };
+		D2D385DF2A6044CB00890EC4 /* MenuRioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2D385B32A6044CA00890EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D385CC2A6044CB00890EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D385D62A6044CB00890EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2D385AD2A6044CA00890EC4 = {
+			isa = PBXGroup;
+			children = (
+				D2D385B82A6044CA00890EC4 /* MenuRio */,
+				D2D385D22A6044CB00890EC4 /* MenuRioTests */,
+				D2D385DC2A6044CB00890EC4 /* MenuRioUITests */,
+				D2D385B72A6044CA00890EC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2D385B72A6044CA00890EC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2D385B62A6044CA00890EC4 /* MenuRio.app */,
+				D2D385CF2A6044CB00890EC4 /* MenuRioTests.xctest */,
+				D2D385D92A6044CB00890EC4 /* MenuRioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2D385B82A6044CA00890EC4 /* MenuRio */ = {
+			isa = PBXGroup;
+			children = (
+				D2D385EE2A6044FD00890EC4 /* Controller */,
+				D2D385ED2A6044E700890EC4 /* View */,
+				D2D385EC2A6044D300890EC4 /* AppDelegate */,
+				D2D385C52A6044CA00890EC4 /* Assets.xcassets */,
+				D2D385CA2A6044CA00890EC4 /* Info.plist */,
+				D2D385C22A6044CA00890EC4 /* MenuRio.xcdatamodeld */,
+			);
+			path = MenuRio;
+			sourceTree = "<group>";
+		};
+		D2D385D22A6044CB00890EC4 /* MenuRioTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2D385D32A6044CB00890EC4 /* MenuRioTests.swift */,
+			);
+			path = MenuRioTests;
+			sourceTree = "<group>";
+		};
+		D2D385DC2A6044CB00890EC4 /* MenuRioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2D385DD2A6044CB00890EC4 /* MenuRioUITests.swift */,
+				D2D385DF2A6044CB00890EC4 /* MenuRioUITestsLaunchTests.swift */,
+			);
+			path = MenuRioUITests;
+			sourceTree = "<group>";
+		};
+		D2D385EC2A6044D300890EC4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D2D385B92A6044CA00890EC4 /* AppDelegate.swift */,
+				D2D385BB2A6044CA00890EC4 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D2D385ED2A6044E700890EC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2D385BF2A6044CA00890EC4 /* Main.storyboard */,
+				D2D385C72A6044CA00890EC4 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2D385EE2A6044FD00890EC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D2D385BD2A6044CA00890EC4 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2D385B52A6044CA00890EC4 /* MenuRio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D385E32A6044CB00890EC4 /* Build configuration list for PBXNativeTarget "MenuRio" */;
+			buildPhases = (
+				D2D385B22A6044CA00890EC4 /* Sources */,
+				D2D385B32A6044CA00890EC4 /* Frameworks */,
+				D2D385B42A6044CA00890EC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenuRio;
+			productName = MenuRio;
+			productReference = D2D385B62A6044CA00890EC4 /* MenuRio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2D385CE2A6044CB00890EC4 /* MenuRioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D385E62A6044CB00890EC4 /* Build configuration list for PBXNativeTarget "MenuRioTests" */;
+			buildPhases = (
+				D2D385CB2A6044CB00890EC4 /* Sources */,
+				D2D385CC2A6044CB00890EC4 /* Frameworks */,
+				D2D385CD2A6044CB00890EC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D385D12A6044CB00890EC4 /* PBXTargetDependency */,
+			);
+			name = MenuRioTests;
+			productName = MenuRioTests;
+			productReference = D2D385CF2A6044CB00890EC4 /* MenuRioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2D385D82A6044CB00890EC4 /* MenuRioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D385E92A6044CB00890EC4 /* Build configuration list for PBXNativeTarget "MenuRioUITests" */;
+			buildPhases = (
+				D2D385D52A6044CB00890EC4 /* Sources */,
+				D2D385D62A6044CB00890EC4 /* Frameworks */,
+				D2D385D72A6044CB00890EC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D385DB2A6044CB00890EC4 /* PBXTargetDependency */,
+			);
+			name = MenuRioUITests;
+			productName = MenuRioUITests;
+			productReference = D2D385D92A6044CB00890EC4 /* MenuRioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2D385AE2A6044CA00890EC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D2D385B52A6044CA00890EC4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D2D385CE2A6044CB00890EC4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D2D385B52A6044CA00890EC4;
+					};
+					D2D385D82A6044CB00890EC4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D2D385B52A6044CA00890EC4;
+					};
+				};
+			};
+			buildConfigurationList = D2D385B12A6044CA00890EC4 /* Build configuration list for PBXProject "MenuRio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2D385AD2A6044CA00890EC4;
+			productRefGroup = D2D385B72A6044CA00890EC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2D385B52A6044CA00890EC4 /* MenuRio */,
+				D2D385CE2A6044CB00890EC4 /* MenuRioTests */,
+				D2D385D82A6044CB00890EC4 /* MenuRioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2D385B42A6044CA00890EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D385C92A6044CA00890EC4 /* LaunchScreen.storyboard in Resources */,
+				D2D385C62A6044CA00890EC4 /* Assets.xcassets in Resources */,
+				D2D385C12A6044CA00890EC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D385CD2A6044CB00890EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D385D72A6044CB00890EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2D385B22A6044CA00890EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D385BE2A6044CA00890EC4 /* ViewController.swift in Sources */,
+				D2D385BA2A6044CA00890EC4 /* AppDelegate.swift in Sources */,
+				D2D385BC2A6044CA00890EC4 /* SceneDelegate.swift in Sources */,
+				D2D385C42A6044CA00890EC4 /* MenuRio.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D385CB2A6044CB00890EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D385D42A6044CB00890EC4 /* MenuRioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D385D52A6044CB00890EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D385E02A6044CB00890EC4 /* MenuRioUITestsLaunchTests.swift in Sources */,
+				D2D385DE2A6044CB00890EC4 /* MenuRioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2D385D12A6044CB00890EC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2D385B52A6044CA00890EC4 /* MenuRio */;
+			targetProxy = D2D385D02A6044CB00890EC4 /* PBXContainerItemProxy */;
+		};
+		D2D385DB2A6044CB00890EC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2D385B52A6044CA00890EC4 /* MenuRio */;
+			targetProxy = D2D385DA2A6044CB00890EC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2D385BF2A6044CA00890EC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D385C02A6044CA00890EC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2D385C72A6044CA00890EC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D385C82A6044CA00890EC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2D385E12A6044CB00890EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2D385E22A6044CB00890EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2D385E42A6044CB00890EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FFSK8595GW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MenuRio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.salaoapp.MenuRio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2D385E52A6044CB00890EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FFSK8595GW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MenuRio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.salaoapp.MenuRio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2D385E72A6044CB00890EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FFSK8595GW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.salaoapp.MenuRioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuRio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MenuRio";
+			};
+			name = Debug;
+		};
+		D2D385E82A6044CB00890EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FFSK8595GW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.salaoapp.MenuRioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuRio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MenuRio";
+			};
+			name = Release;
+		};
+		D2D385EA2A6044CB00890EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FFSK8595GW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.salaoapp.MenuRioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MenuRio;
+			};
+			name = Debug;
+		};
+		D2D385EB2A6044CB00890EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FFSK8595GW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.salaoapp.MenuRioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MenuRio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2D385B12A6044CA00890EC4 /* Build configuration list for PBXProject "MenuRio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D385E12A6044CB00890EC4 /* Debug */,
+				D2D385E22A6044CB00890EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D385E32A6044CB00890EC4 /* Build configuration list for PBXNativeTarget "MenuRio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D385E42A6044CB00890EC4 /* Debug */,
+				D2D385E52A6044CB00890EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D385E62A6044CB00890EC4 /* Build configuration list for PBXNativeTarget "MenuRioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D385E72A6044CB00890EC4 /* Debug */,
+				D2D385E82A6044CB00890EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D385E92A6044CB00890EC4 /* Build configuration list for PBXNativeTarget "MenuRioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D385EA2A6044CB00890EC4 /* Debug */,
+				D2D385EB2A6044CB00890EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2D385C22A6044CA00890EC4 /* MenuRio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2D385C32A6044CA00890EC4 /* MenuRio.xcdatamodel */,
+			);
+			currentVersion = D2D385C32A6044CA00890EC4 /* MenuRio.xcdatamodel */;
+			path = MenuRio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2D385AE2A6044CA00890EC4 /* Project object */;
+}
